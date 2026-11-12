@@ -59,6 +59,13 @@
     if (e.target.closest('a')) { nav.classList.remove('is-open'); burger.classList.remove('is-open'); }
   });
 
+  /* ---------- дефисы в номере — той же ширины, что цифры ---------- */
+  document.querySelectorAll('.nav__phone,.hphone').forEach(function (el) {
+    el.innerHTML = el.textContent.split('').map(function (c) {
+      return c === '-' ? '<span class="hd">-</span>' : c;
+    }).join('');
+  });
+
   /* ---------- маска телефона ---------- */
   var phone = document.getElementById('fPhone');
   phone.addEventListener('input', function () {
