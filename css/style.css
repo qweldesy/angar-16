@@ -8,7 +8,7 @@
   --green:#22c55e; --green-bg:rgba(34,197,94,.12);
   --red:#ef4444;
   --r:14px; --r-sm:10px;
-  --fd:"Unbounded",Inter,sans-serif; --fb:Inter,-apple-system,sans-serif;
+  --fd:"Tektur",Inter,sans-serif; --fb:Inter,-apple-system,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -48,8 +48,7 @@ section{scroll-margin-top:84px}
 .hero__fade{position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 22%,rgba(10,10,11,.55) 55%,rgba(10,10,11,.2) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 35%)}
 .hero__in{position:relative;z-index:2}
 .eyebrow{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--mut);margin-bottom:22px}
-.hero__t{font-family:var(--fd);font-weight:800;font-size:clamp(44px,7.4vw,96px);letter-spacing:.02em;line-height:1;margin:0 0 10px}
-.hero__t .thin{color:transparent;-webkit-text-stroke:2px var(--text)}
+.hero__t{font-family:var(--fd);font-weight:700;font-size:clamp(44px,7.4vw,96px);letter-spacing:.04em;line-height:1;margin:0 0 10px}
 .hero__sub{font-size:15.5px;color:var(--mut);max-width:46ch;margin-bottom:24px}
 .hero__pills{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:28px}
 .pill{font-size:11.5px;font-weight:500;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:6px 13px;background:rgba(255,255,255,.03)}
@@ -61,7 +60,7 @@ section{scroll-margin-top:84px}
 /* ---------- секции ---------- */
 .sec{padding:84px 0}
 .h2{font-family:var(--fd);font-weight:600;font-size:clamp(24px,3.4vw,40px);letter-spacing:.01em;line-height:1.1;margin-bottom:34px}
-.h2 em{font-style:normal;color:transparent;-webkit-text-stroke:1.4px var(--text)}
+.h2 em{font-style:normal;color:var(--mut)}
 .lead{color:var(--mut);max-width:52ch;margin:-20px 0 30px}
 
 /* ---------- почему 01-04 ---------- */
