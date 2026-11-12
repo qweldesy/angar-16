@@ -59,14 +59,6 @@
     if (e.target.closest('a')) { nav.classList.remove('is-open'); burger.classList.remove('is-open'); }
   });
 
-  /* ---------- номер-табло ---------- */
-  document.querySelectorAll('[data-phone]').forEach(function (el) {
-    var t = el.dataset.phone;
-    el.innerHTML = t.split('').map(function (c) {
-      return c === ' ' ? '<i class="sp"></i>' : '<span>' + c + '</span>';
-    }).join('');
-  });
-
   /* ---------- маска телефона ---------- */
   var phone = document.getElementById('fPhone');
   phone.addEventListener('input', function () {
