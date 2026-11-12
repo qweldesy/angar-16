@@ -44,7 +44,8 @@ section{scroll-margin-top:84px}
 
 /* ---------- герой ---------- */
 .hero{position:relative;min-height:92vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:110px 0 0}
-.hero__bg{position:absolute;inset:0;background-size:cover;background-position:center 30%;filter:brightness(.42) saturate(.85)}
+.hero__bg{position:absolute;inset:0;background-size:cover;filter:brightness(.38) saturate(.7) contrast(1.05)}
+.hdr__phone,.nav__phone{font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .hero__fade{position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 22%,rgba(10,10,11,.55) 55%,rgba(10,10,11,.2) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 35%)}
 .hero__in{position:relative;z-index:2}
 .eyebrow{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--mut);margin-bottom:22px}
