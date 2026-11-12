@@ -35,7 +35,10 @@ section{scroll-margin-top:84px}
 .nav{display:flex;gap:2px;margin:0 auto}
 .nav__link{font-size:13px;color:var(--mut);padding:7px 11px;border-radius:8px;transition:color .15s ease,background .15s ease}
 .nav__link:hover{color:var(--text);background:var(--card2)}
-.nav__phone{font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.nav__phone,.hero__foot a[href^="tel"],.crow a[href^="tel"]{font-family:'JetBrains Mono',monospace;font-weight:500;letter-spacing:-.02em}
+.nav__phone{font-size:12.5px;color:var(--text)}
+.hero__foot a[href^="tel"]{font-size:12px}
+.crow a[href^="tel"]{font-size:12.5px;border-bottom:0}
 .hdr__act{display:flex;gap:9px;align-items:center;margin-left:auto}
 .hdr__wa{padding:9px 16px}
 .nav__phone{font-family:var(--fb);font-weight:600;font-size:13.5px;letter-spacing:.01em;font-variant-numeric:tabular-nums}
