@@ -40,7 +40,6 @@ section{scroll-margin-top:84px}
 .hero__foot a[href^="tel"]{font-size:12px}
 .crow a[href^="tel"]{font-size:12.5px;border-bottom:0}.hdr__act{display:flex;gap:9px;align-items:center;margin-left:auto}
 .hdr__wa{padding:9px 16px}
-.nav__phone{font-family:var(--fb);font-weight:600;font-size:13.5px;letter-spacing:.01em;font-variant-numeric:tabular-nums}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:9px}
 .burger span{width:22px;height:2px;background:var(--text);transition:transform .25s ease}
 .burger.is-open span:nth-child(1){transform:translateY(3.5px) rotate(45deg)}
