@@ -35,6 +35,7 @@ section{scroll-margin-top:84px}
 .nav{display:flex;gap:2px;margin:0 auto}
 .nav__link{font-size:13px;color:var(--mut);padding:7px 11px;border-radius:8px;transition:color .15s ease,background .15s ease}
 .nav__link:hover{color:var(--text);background:var(--card2)}
+.nav__phone{font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .hdr__act{display:flex;gap:9px;align-items:center}
 .hdr__wa{padding:9px 16px}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:9px}
@@ -44,9 +45,11 @@ section{scroll-margin-top:84px}
 
 /* ---------- герой ---------- */
 .hero{position:relative;min-height:92vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:110px 0 0}
-.hero__bg{position:absolute;inset:0;background-size:cover;filter:brightness(.38) saturate(.7) contrast(1.05)}
-.hdr__phone,.nav__phone{font-variant-numeric:tabular-nums;letter-spacing:.02em}
-.hero__fade{position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 22%,rgba(10,10,11,.55) 55%,rgba(10,10,11,.2) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 35%)}
+.hero__bg{position:absolute;top:0;right:0;bottom:0;width:52%;background-size:cover;background-position:center 30%;
+  filter:brightness(.8) saturate(.85);
+  mask-image:linear-gradient(90deg,transparent 0,#000 30%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%)}
+.hero__fade{position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(10,10,11,.55) 22%,transparent 55%)}
 .hero__in{position:relative;z-index:2}
 .eyebrow{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--mut);margin-bottom:22px}
 .hero__t{font-family:var(--fd);font-weight:700;font-size:clamp(44px,7.4vw,96px);letter-spacing:.04em;line-height:1;margin:0 0 10px}
@@ -163,6 +166,7 @@ html.motion-ready .rvl.is-in{opacity:1}
   .nav.is-open .nav__link{font-size:16px;padding:10px 0;width:100%}
   .nav.is-open .nav__phone{display:block;color:var(--text);font-weight:500;margin-top:10px}
   .hero{min-height:80vh}
+  .hero__bg{width:100%;mask-image:none;-webkit-mask-image:none;filter:brightness(.3)}
   .hero__t{font-size:clamp(40px,13vw,64px)}
   .sec{padding:60px 0}
 }
