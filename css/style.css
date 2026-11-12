@@ -36,7 +36,7 @@ section{scroll-margin-top:84px}
 .nav__link{font-size:13px;color:var(--mut);padding:7px 11px;border-radius:8px;transition:color .15s ease,background .15s ease}
 .nav__link:hover{color:var(--text);background:var(--card2)}
 /* номер — обычный дефолтный шрифт системы */
-.nav__phone,.hphone{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:13.5px;font-weight:400;color:var(--text)}.hdr__act{display:flex;gap:9px;align-items:center;margin-left:auto}
+.nav__phone,.hphone{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:13.5px;font-weight:400;color:var(--text);font-variant-numeric:tabular-nums;font-feature-settings:'tnum' 1}.hdr__act{display:flex;gap:9px;align-items:center;margin-left:auto}
 .hdr__wa{padding:9px 16px}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:9px}
 .burger span{width:22px;height:2px;background:var(--text);transition:transform .25s ease}
