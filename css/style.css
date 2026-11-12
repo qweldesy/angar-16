@@ -153,6 +153,8 @@ html.motion-ready .rvl.is-in{opacity:1}
 
 /* ---------- адаптив ---------- */
 @media (max-width:960px){
+  .hdr{backdrop-filter:none;background:rgba(10,10,11,.94)}
+  .nav.is-open{background:rgba(10,10,11,.97)}
   .why{grid-template-columns:1fr 1fr}
   .works{grid-template-columns:1fr}
   .revs{grid-template-columns:1fr}
