@@ -38,7 +38,7 @@ section{scroll-margin-top:84px}
 .nav__phone{font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .hdr__act{display:flex;gap:9px;align-items:center;margin-left:auto}
 .hdr__wa{padding:9px 16px}
-.nav__phone{font-family:var(--fd);font-weight:500;font-size:13px;letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.nav__phone{font-family:var(--fb);font-weight:600;font-size:13.5px;letter-spacing:.01em;font-variant-numeric:tabular-nums}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:9px}
 .burger span{width:22px;height:2px;background:var(--text);transition:transform .25s ease}
 .burger.is-open span:nth-child(1){transform:translateY(3.5px) rotate(45deg)}
@@ -60,7 +60,7 @@ section{scroll-margin-top:84px}
 .hero__cta{display:flex;gap:10px;flex-wrap:wrap}
 .hero__foot{position:relative;z-index:2;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
   border-top:1px solid var(--line);margin-top:48px;padding:14px 24px;font-size:12px;color:var(--mut)}
-.hero__foot a{color:var(--text);font-weight:500}
+.hero__foot a{color:var(--text);font-weight:600;font-variant-numeric:tabular-nums;letter-spacing:.01em}
 
 /* ---------- секции ---------- */
 .sec{padding:84px 0}
